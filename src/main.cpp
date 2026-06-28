@@ -1,7 +1,9 @@
-#include <iostream>
+#include "Application.hpp"
 
 int main()
 {
-    std::cout << "[LUMEN] Starting..." << std::endl;
+    Application app;
+    app.Run();
+
     return 0;
 }
